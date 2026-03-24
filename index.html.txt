@@ -1,0 +1,41 @@
+instagram-profile
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>breyny_05 • Instagram</title>
+<link rel="manifest" href="manifest.json">
+<style>
+body{margin:0;font-family:Arial;background:#000;color:#fff}
+.container{max-width:430px;margin:auto}
+.topbar{display:flex;justify-content:space-between;padding:10px}
+.profile{display:flex;padding:10px}
+.profile img{width:80px;height:80px;border-radius:50%}
+.stats{display:flex;gap:15px}
+.highlights{display:flex;gap:10px;overflow:auto;padding:10px}
+.highlight img{width:60px;height:60px;border-radius:50%}
+.post img{width:100%}
+.nav{position:fixed;bottom:0;width:100%;max-width:430px;background:#111;display:flex;justify-content:space-around;padding:10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="topbar"><b>breyny_05</b><span>❤️</span></div><div class="profile">
+<img src="profile.jpg">
+<div>
+<div class="stats"><b>3</b> posts <b>10k</b> followers <b>2k</b> following</div>
+<div>Breyny Stefany De La CS 🦋<br>23 years ago<br>SPM, RD 🌴🇩🇴<br>Mother, cooking and finance</div>
+</div>
+</div><div class="highlights">
+<img src="food1.jpg">
+<img src="hobby1.jpg">
+<img src="movie1.jpg">
+</div><div class="post"><img src="post1.jpg"><p>Dinner for my birthday with my friends 🙈</p></div>
+<div class="post"><img src="trading.jpg"><p>This is how the charts look today, a great day to update your portfolio 💸</p></div>
+<div class="post"><img src="post3.jpg"><p>Christmas is perfect because you are here ❤️🩹</p></div></div><div class="nav">🏠 🔍 ➕ ❤️ 👤</div><script>
+// Service Worker Register
+if('serviceWorker' in navigator){
+navigator.serviceWorker.register('sw.js');
+}
+</script></body>
+</html>
